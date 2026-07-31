@@ -1,7 +1,29 @@
 aid: muuktest
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/muuktest.png
 name: Muuktest
-description: Muuktest is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  MuukTest (MuukLabs) is an AI-powered test automation and managed QA services
+  company founded in 2019 that helps software teams reach high end-to-end test
+  coverage in weeks rather than months. It blends an AI-driven automation
+  platform with expert QA engineers to deliver end-to-end, functional,
+  regression, API, and performance testing across web, mobile, and API
+  surfaces, using self-healing scripts (Playwright, Selenium, Appium), CI/CD
+  integration, and detailed bug reporting with repro steps, logs, recordings,
+  and Slack alerts. MuukTest is a managed testing service delivered through a
+  Chrome recorder and a dedicated team rather than a self-service public
+  developer API; it is backed by Techstars, the NSF SBIR program, MassChallenge,
+  and Google for Startups.
 url: https://raw.githubusercontent.com/api-evangelist/muuktest/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +33,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Testing
+- Test Automation
+- QA
+- Quality Assurance
+- API Testing
+- Artificial Intelligence
+- Developer Tools
+- CI/CD
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +53,20 @@ maintainers:
 common:
 - type: Website
   url: https://muuktest.com/
+- type: Pricing
+  url: https://muuktest.com/pricing
+- type: Blog
+  url: https://muuktest.com/blog
+- type: Support
+  url: https://muuktest.com/contact-us
+- type: TermsOfService
+  url: https://muuktest.com/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://muuktest.com/privacy-policy
+- type: DomainSecurity
+  url: security/muuktest-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
