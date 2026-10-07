@@ -1,0 +1,28 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://muuktest.com/pricing
+sources:
+- https://muuktest.com/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: negotiated
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+published: false
+note: Outcome-based pricing described but no numeric prices shown; packages compared by features only.
+plan_count: 2
+plans:
+- name: Automation Starter
+  price_text: Schedule a complementary scoping session
+  period: none
+  included_quota: Target Test Coverage 80%
+- name: Full Service QA
+  price_text: Schedule a complementary scoping session
+  period: none
+  included_quota: Target Test Coverage 95%
